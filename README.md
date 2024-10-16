@@ -44,16 +44,13 @@ $ java -jar build/libs/greeting-0.0.1-SNAPSHOT.jar
   
 ## STEP 3
 ```
-# file upload
+# Make People.java
+
+# people = num(int), name(String)
+# First letter of the name entered in capital letter
 ```
 
-+ file upload
-```
-cd code/mnist
-uvicorn src.mnist.main:app --reload
-```
-![image](https://github.com/user-attachments/assets/107bbc08-a65e-45bb-8947-b0a57cade5cb)
-**file name must be in (code/mnist/note/train_img)**
+![image](https://github.com/user-attachments/assets/2fe7f35d-0292-4078-97dd-71e6dcee47f7)
 
 ## STEP 4
 ```
@@ -66,11 +63,6 @@ uvicorn src.mnist.main:app --reload
   
   ![image](https://github.com/user-attachments/assets/cb8fc901-5b9a-4d38-9b62-776af41fd153)
   ![image](https://github.com/user-attachments/assets/76b609c8-8ba5-42ac-8f94-a1f08430e1f3)
-
-  If hotdog..
-
-  ![image](https://github.com/user-attachments/assets/81a6eb27-3c01-45c7-929a-d17060ddd666)
-  ![image](https://github.com/user-attachments/assets/06bbff48-c392-4e58-8425-dd07adbb3290)
 
 
 
