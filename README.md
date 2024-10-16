@@ -1,8 +1,9 @@
 # Greeting Spring Boot
 
 ## GOAL
-+ 아직 미정>
-
++ Study Framework for Web Application Development
++ Spring Boot(Java-based) is functions which is similar to FASTAPI(Python-based) -> Getting used to java
+  
 ## Basic Tools
 + Getting Started Using Franchise Framework
   <details>
