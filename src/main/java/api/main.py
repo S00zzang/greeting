@@ -1,16 +1,12 @@
-from typing import Union
 from fastapi import FastAPI
+from typing import List
 
 app = FastAPI()
 
-@app.get("/")
-def read_root():
-    return {"Hello": "World"}
+# 이름 저장을 위한 스택
+names = []
 
-
-@app.get("/greeting")
-def read_name(name:str = "HI"):
-    name=name
-    if name == "":
-        name="HI"
-    return name
+@app.get("/greeting", response_model=List[str])
+async def greeting(name: str = "HI"):
+    names.append(name)
+    return names
