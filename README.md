@@ -11,7 +11,7 @@
   ![image](https://github.com/user-attachments/assets/59fc8b94-4d21-4fd3-9251-26b73c48935d)
 
 </details>
-+ Configuring Basic Features to Work
+
 
 # Usage
 ```
