@@ -13,7 +13,19 @@
 
 </details>
 
++ Connecting with Jenkins
+  <details>
+    https://www.jenkins.io/
+    
+    ![image](https://github.com/user-attachments/assets/ae2d822e-4626-42d1-82f5-cb41d2e6f86c)
 
+    ![image](https://github.com/user-attachments/assets/989496b7-f881-4413-82ca-73f814df8bab)
+
+    ![image](https://github.com/user-attachments/assets/7180f9c9-037c-451f-bb94-28e3670c9986)
+
+    ![image](https://github.com/user-attachments/assets/fa6ff595-2e10-481f-a785-eeb3d703ab13)
+
+  </details>
 # Usage
 ```
 $ ./gradlew bootRun
