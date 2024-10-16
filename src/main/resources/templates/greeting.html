@@ -6,7 +6,10 @@
         <title>Greeting</title>
       </head>
       <body>
-        <h1>Greeting</h1>
-        <li th:each="name: ${names}" td th:text="${name}"></li> 
+        <h1>이전에 입력한 이름들</h1>
+        <li th:each="person: ${names}">
+          <span th:text="${person.num}"></span>: 
+          <span th:text="${#strings.capitalize(person.name)}"></span>
+        </li> 
       </body>
 </html>

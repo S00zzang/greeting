@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.*;
 
 @Controller
 public class GreetingController {
-    Stack<String> names = new Stack<>();
+    Stack<People> names = new Stack<>();
 
     @GetMapping("/greeting")
     public String greeting(
@@ -18,7 +18,10 @@ public class GreetingController {
             defaultValue = "HI"
         ) String name, Model model
     ) {
-        names.push(name);
+        People  p = new People();
+        p.name = name;
+        p.num = names.size() + 1;
+        names.add(p);
         model.addAttribute("names", names);
         return  "greeting";
     }
