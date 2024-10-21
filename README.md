@@ -82,7 +82,7 @@ $ java -jar build/libs/greeting-0.0.1-SNAPSHOT.jar
 
     ![image](https://github.com/user-attachments/assets/365d2a78-7375-49d4-9713-eda38f10c872)
 
-    ![image](https://github.com/user-attachments/assets/f4114fd7-14e1-4190-8ecb-397e8f5335cd)
+    ![image](https://github.com/user-attachments/assets/04d76a27-9034-4852-9fe7-09300a4cee14)
 
 
   </details>
@@ -104,6 +104,7 @@ $ sudo apt-get install docker-ce docker-ce-cli containerd.io
 $ sudo usermod -aG docker $(whoami)
 $ newgrp docker
 ```
+![image](https://github.com/user-attachments/assets/2f1f585e-a9c1-4a38-8066-5cdda007c048)
 
 
 
