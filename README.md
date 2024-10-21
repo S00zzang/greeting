@@ -69,15 +69,41 @@ $ java -jar build/libs/greeting-0.0.1-SNAPSHOT.jar
 
 ## STEP 4
 ```
-# Apply hotdog
+# Connecting AWS server
+# Building Docker by Jenkins automatically
 ```
 
-+ Apply hotdog
++ Connecting AWS server
+  <details>
   
-  If not hotdog..
+    ![image](https://github.com/user-attachments/assets/ae2d822e-4626-42d1-82f5-cb41d2e6f86c)
+
+    ![image](https://github.com/user-attachments/assets/ca5afe5a-9327-486a-8d02-d0d5bdc2ed1b)
+
+    ![image](https://github.com/user-attachments/assets/365d2a78-7375-49d4-9713-eda38f10c872)
+
+    ![image](https://github.com/user-attachments/assets/f4114fd7-14e1-4190-8ecb-397e8f5335cd)
+
+
+  </details>
   
-  ![image](https://github.com/user-attachments/assets/cb8fc901-5b9a-4d38-9b62-776af41fd153)
-  ![image](https://github.com/user-attachments/assets/76b609c8-8ba5-42ac-8f94-a1f08430e1f3)
++ Building Docker by Jenkins automatically
+
+도커 다운
+```
+$ sudo apt-get update
+$ sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
+$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+$ sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+$ sudo apt-get update
+$ sudo apt-get install docker-ce docker-ce-cli containerd.io
+```
+
+권한 부여
+```
+$ sudo usermod -aG docker $(whoami)
+$ newgrp docker
+```
 
 
 
