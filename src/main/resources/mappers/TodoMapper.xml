@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="shop.samdul.greeting.mapper.TodoMapper">
+	<select id="findAll" resultType="shop.samdul.greeting.entity.TodoEntity">
+		SELECT
+			id, subject, body, completed
+		FROM ENCORE_TODO_TBL
+		ORDER BY id DESC
+	</select>
+
+	<select id="findById" parameterType="int" resultType="shop.samdul.greeting.entity.TodoEntity">
+        SELECT
+					id, subject, body, completed
+				FROM ENCORE_TODO_TBL 
+				WHERE id = #{id};
+    </select>
+</mapper>
